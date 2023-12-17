@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GPAWeb.DAL.Models
 {
-    internal class Grade
+    public class Grade
     {
         public Guid Id { get; set; }
         public Guid TeacherId { get; set; }

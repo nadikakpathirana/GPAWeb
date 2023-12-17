@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace GPAWeb.DAL.Models
 {
-    internal class Student
+    public class Student : User
     {
-        public Guid Id { get; set; }
         public Guid TeacherId { get; set; }
-        public string? Name { get; set; }
-        public string? Email { get; set; }
-        public string? Password { get; set; }
     }
 }

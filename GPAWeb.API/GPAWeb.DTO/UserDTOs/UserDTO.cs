@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GPAWeb.DAL.Models
+namespace GPAWeb.DTO.DTOs
 {
-    public class Subject
+    public class UserDTO
     {
         public Guid Id { get; set; }
-        public Guid StudentId { get; set; }
-        public Semester Semester { get; set; }
         public string? Name { get; set; }
-        public int CreditCount { get; set; }
+        public string? Email { get; set; }
+        public string? Username { get; set; }
     }
 }
